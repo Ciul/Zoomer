@@ -42,7 +42,8 @@ js
 
 html
 
-An Element type can be passed too as argument.
+An Element type can be passed too as argument
+
 	#html
 	<img src="gomer-small.jpg" class="zoomer" big="gomer.jpg"/>
 js
