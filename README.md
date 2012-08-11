@@ -37,7 +37,21 @@ js
 		big: 'girl.jpg',
 		smooth: 10
 	});
+
+*Example 3:*
+
+html
+
+An Element type can be passed too as argument.
+	#html
+	<img src="gomer-small.jpg" class="zoomer" big="gomer.jpg"/>
+js
+
+	#js
+	new Zoomer($$('.zoomer')[0]);
 	
+**big** attribute - big image src.
+
 options:
 
 * **big** - big image src or image element
