@@ -24,7 +24,7 @@ var Zoomer = new Class({
 	
 	initialize: function(element, options) {
 		this.setOptions(options);
-		this.small = document.id(element);
+		this.small = document.id(element) || (Type.isElement(element) ? element : null);
 		if(!this.small.complete) {
 			this.small.addEvent('load', function() {
 				this.prepareSmall();
